@@ -96,7 +96,7 @@
     eslint-plugin-simple-import-sort "~7.0.0"
     eslint-plugin-sort-keys-fix "~1.1.2"
 
-"@socialgouv/eslint-config-typescript@^1.75.0":
+"@socialgouv/eslint-config-typescript@^1.85.2":
   version "1.85.2"
   resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-typescript/-/eslint-config-typescript-1.85.2.tgz#016a5c1a70f1b6c01d6be8a4ccde599549fa85d1"
   integrity sha512-RcoUdeoztnIPevOozuflak9aL/Lq6GLmAuJpRtdhjf3FAvlis1ONhtWeygjFrdGJjEmo6G1AwbKfgTwQj57Y3g==
