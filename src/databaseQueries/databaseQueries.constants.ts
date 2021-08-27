@@ -1,4 +1,4 @@
-export const QUESTIONNAIRE_EPDS = `
+export const EPDS_GET_SURVEY = `
   query QuestionsReponses {
     questionnaireEpds(sort: "ordre") {
       ordre
@@ -15,7 +15,7 @@ export const QUESTIONNAIRE_EPDS = `
   }
 `;
 
-export const EPDS_ADD_RESPONSE = `
+export const EPDS_ADD_SURVEY_RESULTS = `
   mutation (
     $genre: ENUM_REPONSESEPDS_GENRE!
     $compteur: Int!
@@ -58,7 +58,7 @@ export const EPDS_ADD_RESPONSE = `
   }
 `;
 
-export const EPDS_CONTACT_INFORMATION = `
+export const EPDS_SEND_CONTACT_INFORMATION = `
   mutation (
     $email: String!
     $telephone: String
@@ -89,7 +89,7 @@ export const AROUNDME_FILTER_DATA = `
   }
 `;
 
-export const AROUNDME_POIS_COUNT_BY_GPSCOORDS = `
+export const GET_POIS_COUNT_BY_GPSCOORDS = `
   query PoisCountByGPSCoords(
     $long1: Float!
     $lat1: Float!
@@ -106,7 +106,7 @@ export const AROUNDME_POIS_COUNT_BY_GPSCOORDS = `
   }
 `;
 
-export const AROUNDME_POIS_BY_GPSCOORDS = `
+export const GET_POIS_BY_GPSCOORDS = `
   query PoisByGPSCoords(
     $long1: Float!
     $lat1: Float!
