@@ -22,7 +22,7 @@ jobs:
             run: yarn --frozen-lockfile --link-duplicates --perfer-offline
 
           - name: Yarn build
-          run: yarn build
+            run: yarn build
 
   release:
     needs:
