@@ -10,7 +10,7 @@ import {
 import { Article, Thematique, Visuel } from "./models/article/article";
 import { EpdsGender } from "./models/epds/constants";
 import { PoiCategorieEnum, PoiTypeEnum } from "./models/poi/constants";
-import { Poi, PoiType } from "./models/poi/poi";
+import { Poi, PoiType, Step } from "./models/poi/poi";
 
 export {
   AROUNDME_FILTER_DATA,
@@ -26,6 +26,7 @@ export {
   PoiCategorieEnum,
   PoiType,
   PoiTypeEnum,
+  Step,
   Thematique,
   Visuel,
 };
