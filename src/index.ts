@@ -10,7 +10,7 @@ import {
 import { Article, Thematique, Visuel } from "./models/article/article";
 import { EpdsGender } from "./models/epds/constants";
 import { PoiCategorieEnum, PoiTypeEnum } from "./models/poi/constants";
-import { Poi, PoiType, Step } from "./models/poi/poi";
+import { Poi, PoisCount, PoiType, Step } from "./models/poi/poi";
 
 export {
   AROUNDME_FILTER_DATA,
@@ -24,6 +24,7 @@ export {
   GET_POIS_COUNT_BY_GPSCOORDS,
   Poi,
   PoiCategorieEnum,
+  PoisCount,
   PoiType,
   PoiTypeEnum,
   Step,
