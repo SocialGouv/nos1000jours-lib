@@ -84,28 +84,28 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@socialgouv/eslint-config-recommended@^1.85.2":
-  version "1.85.2"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.85.2.tgz#81b776aaf0076d152f45210d176e2a609af46141"
-  integrity sha512-uwFKN36kpQVofAxDt8PinCGi5qbKp+mjWqz4KWEuE4gntZytObZlFtvX/tTWW5l2PUSDpuH11pYSoUxemN/wKQ==
+"@socialgouv/eslint-config-recommended@^1.85.4":
+  version "1.85.4"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.85.4.tgz#58d5f512e2b6f59d1708ead4ba118cee8e51b18d"
+  integrity sha512-PNp85Za3KsBgIHJx+SQ3ZFUYd/DQK8FRylgjPmCzbV5yPdmAjSRcJkpgLPmTnZYOxvoUSHI+qrU3LEixP+8lKA==
   dependencies:
     eslint-config-prettier "~8.3.0"
-    eslint-plugin-import "~2.24.1"
+    eslint-plugin-import "~2.24.2"
     eslint-plugin-jest "~24.4.0"
     eslint-plugin-prettier "~3.4.1"
     eslint-plugin-simple-import-sort "~7.0.0"
     eslint-plugin-sort-keys-fix "~1.1.2"
 
-"@socialgouv/eslint-config-typescript@^1.85.2":
-  version "1.85.2"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-typescript/-/eslint-config-typescript-1.85.2.tgz#016a5c1a70f1b6c01d6be8a4ccde599549fa85d1"
-  integrity sha512-RcoUdeoztnIPevOozuflak9aL/Lq6GLmAuJpRtdhjf3FAvlis1ONhtWeygjFrdGJjEmo6G1AwbKfgTwQj57Y3g==
+"@socialgouv/eslint-config-typescript@^1.85.4":
+  version "1.85.4"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-typescript/-/eslint-config-typescript-1.85.4.tgz#4819eaaac5f8f54499169890a3464fa4a29380f3"
+  integrity sha512-94i2+KqpEAraW+WWBrE+6FY2fsIu06Q5TYAinfEvdgwMdnJPyQYfKodrigZ/cBfmkCVaoBlzi9R8g3NchcpVhA==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.85.2"
-    "@typescript-eslint/eslint-plugin" "~4.29.2"
-    "@typescript-eslint/parser" "~4.29.2"
+    "@socialgouv/eslint-config-recommended" "^1.85.4"
+    "@typescript-eslint/eslint-plugin" "~4.29.3"
+    "@typescript-eslint/parser" "~4.29.3"
     eslint-import-resolver-typescript "~2.4.0"
-    eslint-plugin-import "~2.24.1"
+    eslint-plugin-import "~2.24.2"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
@@ -161,7 +161,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.9.1", "@typescript-eslint/eslint-plugin@~4.29.2":
+"@typescript-eslint/eslint-plugin@^4.9.1", "@typescript-eslint/eslint-plugin@~4.29.3":
   version "4.29.3"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.29.3.tgz#95cb8029a8bd8bd9c7f4ab95074a7cb2115adefa"
   integrity sha512-tBgfA3K/3TsZY46ROGvoRxQr1wBkclbVqRQep97MjVHJzcRBURRY3sNFqLk0/Xr//BY5hM9H2p/kp+6qim85SA==
@@ -186,7 +186,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.9.1", "@typescript-eslint/parser@~4.29.2":
+"@typescript-eslint/parser@^4.9.1", "@typescript-eslint/parser@~4.29.3":
   version "4.29.3"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.29.3.tgz#2ac25535f34c0e98f50c0e6b28c679c2357d45f2"
   integrity sha512-jrHOV5g2u8ROghmspKoW7pN8T/qUzk0+DITun0MELptvngtMrwUJ1tv5zMI04CYVEUsSrN4jV7AKSv+I0y0EfQ==
@@ -578,7 +578,7 @@ eslint-module-utils@^2.6.2:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@~2.24.1:
+eslint-plugin-import@~2.24.2:
   version "2.24.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.24.2.tgz#2c8cd2e341f3885918ee27d18479910ade7bb4da"
   integrity sha512-hNVtyhiEtZmpsabL4neEj+6M5DCLgpYyG9nzJY8lZQeQXEn5UPW1DpUdsMHMXsq98dbNm7nt1w9ZMSVpfJdi8Q==
