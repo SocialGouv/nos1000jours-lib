@@ -15,6 +15,9 @@ export interface Poi {
   position_latitude: number;
   position_longitude: number;
 }
+export interface PoisCount {
+  count: number;
+}
 
 export interface PoiType {
   nom: string;
