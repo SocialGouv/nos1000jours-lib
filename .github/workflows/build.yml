@@ -24,6 +24,7 @@ jobs:
           - name: Yarn build
           run: yarn build
 
+  release:
     needs:
       - build
     if: github.event_name == 'push'
