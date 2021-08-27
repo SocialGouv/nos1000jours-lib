@@ -5,7 +5,10 @@
   "files": [
     "lib/**/*"
   ],
-  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -20,7 +23,7 @@
     "url": "https://github.com/SocialGouv/nos1000jours-lib.git"
   },
   "keywords": [],
-  "author": "Ippon Technologies",
+  "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
   "devDependencies": {
     "@socialgouv/eslint-config-typescript": "^1.85.4",
     "@types/jest": "^27.0.1",
