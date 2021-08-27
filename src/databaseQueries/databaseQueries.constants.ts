@@ -134,3 +134,25 @@ export const GET_POIS_BY_GPSCOORDS = `
     }
   }
 `;
+
+export const ARTICLE_GET_STEP_ARTICLES = (stepId: string): string => `
+    query GetStepArticles {
+      articles(sort: "ordre", where: {
+        etapes: { id: ${stepId} }
+      })
+      {
+        id
+        titre
+        resume
+        visuel {
+          url
+          height
+          width
+        }
+        thematiques {
+          nom
+          id
+        }
+      }
+    }
+  `;
