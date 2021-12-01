@@ -25,4 +25,5 @@ export interface PoiType {
 }
 export interface Step {
   nom: string;
+  categories_types: PoiType[];
 }

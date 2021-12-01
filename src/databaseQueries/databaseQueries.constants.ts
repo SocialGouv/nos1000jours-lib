@@ -80,6 +80,10 @@ export const AROUNDME_FILTER_DATA = `
   query {
     etapes(sort: "id") {
       nom
+      cartographie_types {
+        nom
+        categorie
+      }
     }
 
     cartographieTypes(sort: "nom") {
