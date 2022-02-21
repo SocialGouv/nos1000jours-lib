@@ -26,3 +26,15 @@ const [getFilterData] = useLazyQuery(gql(AROUNDME_FILTER_DATA), {
 
 ...
 ```
+
+## Pour lancer la lib et la tester en local
+```
+yarn install
+yarn build
+
+```
+
+Tester la lib en local :  `package.json` du projet utilisant la lib
+```
+"@socialgouv/nos1000jours-lib": "../nos1000jours-lib"
+```

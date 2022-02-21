@@ -13,7 +13,7 @@ query Locales {
     }
   }
 }
-`
+`;
 
 /**
  * List of back office labels by locale
@@ -30,7 +30,7 @@ export const EPDS_LABELS_TRANSLATION_BY_LOCALE = `
       }
     }
   }
-`
+`;
 
 /**
  * EPDS translation by locale
@@ -53,4 +53,4 @@ export const EPDS_SURVEY_TRANSLATION_BY_LOCALE = `
       reponse_4_points
     }
   }
-`
+`;

@@ -18,9 +18,12 @@ node_modules/
 #
 .env 
 
-
 # Sonar & Coverage
 #
 test-report.xml
 coverage
 .scannerwork
+
+# Logs
+#
+*.log
