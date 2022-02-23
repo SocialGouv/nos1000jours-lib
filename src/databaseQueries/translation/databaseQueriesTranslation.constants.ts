@@ -1,3 +1,5 @@
+import { QUERY_QUESTIONNAIRE_EPDS } from "../databaseQueriesCommons.constants";
+
 /**
  * List of back office languages
  */
@@ -38,19 +40,10 @@ export const EPDS_LABELS_TRANSLATION_BY_LOCALE = `
 export const EPDS_SURVEY_TRANSLATION_BY_LOCALE = `
   query QuestionnaireEpdsTraductions($locale: String) {
     questionnaireEpdsTraductions(where: { langue: { identifiant: $locale } }) {
-      libelle
-      ordre
+      ${QUERY_QUESTIONNAIRE_EPDS}
       langue {
         identifiant
       }
-      reponse_1_libelle
-      reponse_1_points
-      reponse_2_libelle
-      reponse_2_points
-      reponse_3_libelle
-      reponse_3_points
-      reponse_4_libelle
-      reponse_4_points
     }
   }
 `;
