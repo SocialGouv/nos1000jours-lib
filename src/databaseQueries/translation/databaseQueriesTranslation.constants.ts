@@ -13,6 +13,7 @@ query Locales {
     drapeau {
       url
     }
+    sens_lecture_droite_vers_gauche
   }
 }
 `;
