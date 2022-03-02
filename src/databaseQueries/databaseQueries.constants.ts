@@ -133,3 +133,25 @@ export const ARTICLE_GET_STEP_ARTICLES = (stepId: string): string => `
       }
     }
   `;
+
+/**
+ * List of resources by platform (mobile, website, widget ...)
+ */
+export const GET_RESOURCES_BY_PLATFORM = `
+  query RessourcesEpds($plateforme: String) {
+    ressourcesEpds(where: { plateforme: $plateforme }) {
+      plateforme
+      ressources_configs {
+        texte_1
+        texte_2
+        score_min
+        score_max
+        ressources {
+          type
+          titre
+          contenu
+        }
+      }
+    }
+  }
+  `;
