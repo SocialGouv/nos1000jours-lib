@@ -6,6 +6,7 @@ import {
   EPDS_SEND_CONTACT_INFORMATION,
   GET_POIS_BY_GPSCOORDS,
   GET_POIS_COUNT_BY_GPSCOORDS,
+  GET_RESOURCES_BY_PLATFORM,
 } from "./databaseQueries/databaseQueries.constants";
 import {
   EPDS_LABELS_TRANSLATION_BY_LOCALE,
@@ -32,6 +33,7 @@ export {
   GET_LOCALES,
   GET_POIS_BY_GPSCOORDS,
   GET_POIS_COUNT_BY_GPSCOORDS,
+  GET_RESOURCES_BY_PLATFORM,
   Poi,
   PoiCategorieEnum,
   PoisCount,
