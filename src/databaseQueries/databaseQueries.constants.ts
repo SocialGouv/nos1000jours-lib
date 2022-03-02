@@ -144,6 +144,8 @@ export const GET_RESOURCES_BY_PLATFORM = `
       ressources_configs {
         texte_1
         texte_2
+        score_min
+        score_max
         ressources {
           type
           titre
