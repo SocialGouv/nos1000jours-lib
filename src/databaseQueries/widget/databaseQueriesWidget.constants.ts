@@ -23,3 +23,23 @@ export const EPDS_SAVE_RESPONSES_FOR_WIDGET = `
     }
   }
 `;
+
+/**
+ * List of resources by platform (mobile, website, widget ...)
+ */
+export const GET_RESOURCES_BY_PLATFORM = `
+  query RessourcesEpds($plateforme: String) {
+    ressourcesEpds(where: { plateforme: $plateforme }) {
+      plateforme
+      ressources_configs {
+        texte_1
+        texte_2
+        ressources {
+          type
+          titre
+          contenu
+        }
+      }
+    }
+  }
+`;
