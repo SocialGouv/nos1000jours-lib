@@ -23,3 +23,24 @@ export const EPDS_SAVE_RESPONSES_FOR_WIDGET = `
     }
   }
 `;
+
+export const EPDS_SAVE_COMMENTS = `
+  mutation(
+    $score: Int, 
+    $commentaire: String
+  ) {
+    createCommentairesEpd (
+      input: { 
+        data: { 
+          score: $score, 
+          commentaire: $commentaire 
+        } 
+      }
+    ) {
+      commentairesEpd {
+        id
+        created_at
+      }
+    }
+  }
+`;
