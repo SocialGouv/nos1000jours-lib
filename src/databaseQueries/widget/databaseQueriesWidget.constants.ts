@@ -44,3 +44,37 @@ export const EPDS_SAVE_COMMENTS = `
     }
   }
 `;
+
+const MUTATUION_EPDS_SEND_VARIABLES = `$email: String!
+  $prenom: String
+  $detail_questions: [String]
+  $detail_reponses: [String]
+  $date: String
+  $mood_level: String`;
+
+const MUTATUION_EPDS_SEND = `email: $email
+  prenom: $prenom
+  detail_questions: $detail_questions
+  detail_reponses: $detail_reponses
+  date: $date
+  mood_level: $mood_level`;
+
+export const EPDS_SEND_MAIL_HIMSELF = `
+  mutation (
+    ${MUTATUION_EPDS_SEND_VARIABLES}
+  ) {
+    epdsPartagePourSoiMeme(
+      ${MUTATUION_EPDS_SEND}
+    )
+  }
+`;
+
+export const EPDS_SEND_MAIL_ENTOURAGE = `
+  mutation (
+    ${MUTATUION_EPDS_SEND_VARIABLES}
+  ) {
+    epdsPartageEntourage(
+      ${MUTATUION_EPDS_SEND}
+    )
+  }
+`;
