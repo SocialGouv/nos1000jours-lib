@@ -16,6 +16,8 @@ import {
 import {
   EPDS_SAVE_COMMENTS,
   EPDS_SAVE_RESPONSES_FOR_WIDGET,
+  EPDS_SEND_MAIL_ENTOURAGE,
+  EPDS_SEND_MAIL_HIMSELF,
 } from "./databaseQueries/widget/databaseQueriesWidget.constants";
 import { Article, Thematique, Visuel } from "./models/article/article";
 import { EpdsGender } from "./models/epds/constants";
@@ -32,6 +34,8 @@ export {
   EPDS_SAVE_COMMENTS,
   EPDS_SAVE_RESPONSES_FOR_WIDGET,
   EPDS_SEND_CONTACT_INFORMATION,
+  EPDS_SEND_MAIL_ENTOURAGE,
+  EPDS_SEND_MAIL_HIMSELF,
   EPDS_SURVEY_TRANSLATION_BY_LOCALE,
   EpdsGender,
   GET_LOCALES,
